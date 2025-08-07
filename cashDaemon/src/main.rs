@@ -7,13 +7,14 @@ fn main() {
     tui::start_tui();
 
     //example_data
-    let data = "Hallo Welt";
+    //let data = "Hallo Welt";
 
     // process Data
-    let processed = processing::process_data(data);
+    //let processed = processing::process_data(data);
 
     //solution
-    println!("{:?}", processed);
+    //println!("{:?}", processed);
 
     //write to file
+    println!("----------fn main finished----------");
 }
